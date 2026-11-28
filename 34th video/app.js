@@ -1,36 +1,28 @@
-/*
-for(i=2;i<=40;i++){
-  if((i%2)===0){
-    console.log(i)
-  }
-}
-  */
-/*
-for(i=1;i<6;i++)
-{
-  console.log("Yes")
-}
-*/
-/*
-for( i=1;i<=10;i++){
-  if(i%2===0){
-    console.log(i +" is a even number")
-  }
-  else{
-    console.log(i+" is a odd number")
-  }
-}
-  */
-/*
-let a=prompt("Please enter number: ")
-if(a>=0){
-  console.log(a+" is a positive number")
+// let a=prompt("Enter your age: ")
+// if(a>=18){
+//   console.log("You are eligible for vote")
+// }else{
+//   console.log("You are not below 18, and can't vote")
+// }
+// let j=5;
+// for(i=1;i<=10;i++){
+// console.log("5 X " +i+" = "+(5*i) )
+// }
 
-}else if(a===0){
-  console.log(a +"is a nutral number")
-}
-else{
-  console.log(a +"is a negative number")
-}
-  */  
- 
+// let j=0
+// for(i=1;i<=15;i++){
+//   if(i>8 && i<=15){
+//     j++
+    
+//   }
+  
+// }console.log(j+" number are greater then 8 between 1 to 15")
+
+let pass="helloworld"
+let userpass=prompt("Enter password for access")
+if(pass===userpass){
+  console.log("Access Granted")
+
+}else(
+  console.log("Access denied")
+)
